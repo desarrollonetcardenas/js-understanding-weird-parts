@@ -29,7 +29,9 @@ var computer = {
 console.log(computer);
 /**
  * I can create a new object and send it to a function
- * as a parameter, then used it inside of function.
+ * as a parameter, then use it inside a function.
+ * 
+ * This is the object literal syntax
  */
 var tornado = {
     model: 2021,
