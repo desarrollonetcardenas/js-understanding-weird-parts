@@ -1,5 +1,5 @@
 /**
- * There's two ways of create new objects
+ * There's two ways of create Objects
  */
 var dog = new Object();
 var newWay = {};
@@ -9,7 +9,7 @@ console.log(newWay);
 
 /**
  * I can initialize and create a new object at the same time
- * This is much faster way to create new javascript Objects.
+ * This is much faster way to create Objects.
  */
 var ball = {
     type: 'basketball',
@@ -17,7 +17,7 @@ var ball = {
 };
 console.log(ball);
 /**
- * Objects can create another objects
+ * Objects can have nested objects
  */
 var computer = {
     model: '2021',
@@ -28,8 +28,8 @@ var computer = {
 }
 console.log(computer);
 /**
- * We can create objects on the fly, passing as a arguments to a
- * function. this function will return a new object.
+ * I can create a new object and send it to a function
+ * as a parameter, then used it inside of function.
  */
 var tornado = {
     model: 2021,
@@ -44,7 +44,22 @@ function car(typeCar){
 
 car(tornado);
 /**
- * I can create an object on the fly and send it
- * as a parameter to the function
+ * I can create objects on the fly and send it
+ * as a parameter to the function and the result will be the same
  */
 car({brand: 'Toyota', model: 1998});
+
+/**
+ * In javascript I can create objects and nested objects using
+ * the dot syntax object.
+ */
+
+var monitor = {};
+monitor.model = 'Samsumng';
+monitor.color = 'black';
+monitor.size = {
+    value: '32 inchs'
+}
+
+console.log(monitor);
+
