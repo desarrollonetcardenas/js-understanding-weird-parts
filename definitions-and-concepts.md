@@ -1,3 +1,11 @@
+
+**Callbacks** <br>
+Call backs are functions passed as argument to another function and executed in
+synchronous way.
+
+Is a function which is to be executed after another function has finished execution
+Is a function which is to be executed after another function has finished execution
+
 **Objects**<br>
 An object is a collection of name-value pairs
 An object is a collection of name-value pairs
