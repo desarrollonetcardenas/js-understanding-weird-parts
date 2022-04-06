@@ -5,6 +5,15 @@ synchronous way.
 
 Is a function which is to be executed after another function has finished execution
 Is a function which is to be executed after another function has finished execution
+Callback is a function which is to be executed after another function has finished execution
+callback is a function which is to be executed after another function has finished execution
+callback is funcinot which is to be executed after another function has execution finished
+callback is a function which is to be executed afer anocther function hasexecution finished
+callback is a function which is to be ecexuted after another function has execution finished
+callback is a function which is to be executed after another function has execution finished
+callback is a function which is to be executed after another function has execution finished
+callback is a function which is to be executed after another function has finished execution
+
 
 **Objects**<br>
 An object is a collection of name-value pairs
