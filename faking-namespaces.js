@@ -21,7 +21,7 @@ var english = {
  * 
  * Now, these two variables  dont override each other, because, they 
  * were created in different objects using the object literal syntax, thereby, 
- * these propoerties are contained into objects.
+ * these properties are contained into objects.
  */
 console.log(spanish.saludo);
 console.log(english.saludo);
@@ -31,3 +31,4 @@ english.saludo = {
         argentinoGreet: 'Che boludo'
 }
 console.log(english);
+
