@@ -5,6 +5,12 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/C6_LetsRunSomeJavascript"
+		},
+		{
+			"path": "../hacker-rank"
 		}
 	],
 	"settings": {}
