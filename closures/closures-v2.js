@@ -11,7 +11,7 @@ function buildFunctions(){
                 return () => {
                     console.log(j); // <--Here I can access to variable 'i' passed as argument.
                 }
-            })(i)   // <-- pass variable 'i' as argument to IIFE
+            })(i)   // <-- pass variable 'i' as argument to IIFE. Need to invoke the function to has access to variable 'i'
         );
     }
 

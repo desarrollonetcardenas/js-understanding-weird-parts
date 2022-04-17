@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "../hacker-rank"
+		},
+		{
+			"path": "../react"
 		}
 	],
 	"settings": {}

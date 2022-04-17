@@ -35,3 +35,17 @@ pablo.setFirstName('Hector Pablo');
 pablo.setLastName('Cardenas');
 pablo.printName();
 
+
+function sumValues(){
+    let a = 0;
+    return function (){
+        let b = 0;
+        console.log(++a, ++b);
+    }
+
+}
+
+let sum = sumValues();
+
+sum();
+sum();
